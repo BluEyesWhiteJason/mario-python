@@ -7,12 +7,12 @@ if len(sys.argv) != 2:
 num = int(sys.argv[1])
 
 #Get string to be encoded
-word = input("Enter string: ")
+sword = input("Enter string: ")
 
 
 #loop to change nums
-for i in range int(len(word)):
-    newWord[i] = chr(ord(word[i]) + num)
+for i in sword:
+    newWord[i] = chr(ord(sword[i]) + num)
 
 #Print result
 print(newWord)
