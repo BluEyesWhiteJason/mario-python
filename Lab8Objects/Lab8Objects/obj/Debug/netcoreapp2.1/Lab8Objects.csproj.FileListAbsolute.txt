@@ -1,0 +1,11 @@
+/Users/jason/Projects/Lab8Objects/Lab8Objects/obj/Debug/netcoreapp2.1/Lab8Objects.csprojAssemblyReference.cache
+/Users/jason/Projects/Lab8Objects/Lab8Objects/obj/Debug/netcoreapp2.1/Lab8Objects.csproj.CoreCompileInputs.cache
+/Users/jason/Projects/Lab8Objects/Lab8Objects/obj/Debug/netcoreapp2.1/Lab8Objects.AssemblyInfoInputs.cache
+/Users/jason/Projects/Lab8Objects/Lab8Objects/obj/Debug/netcoreapp2.1/Lab8Objects.AssemblyInfo.cs
+/Users/jason/Projects/Lab8Objects/Lab8Objects/bin/Debug/netcoreapp2.1/Lab8Objects.deps.json
+/Users/jason/Projects/Lab8Objects/Lab8Objects/bin/Debug/netcoreapp2.1/Lab8Objects.runtimeconfig.json
+/Users/jason/Projects/Lab8Objects/Lab8Objects/bin/Debug/netcoreapp2.1/Lab8Objects.runtimeconfig.dev.json
+/Users/jason/Projects/Lab8Objects/Lab8Objects/bin/Debug/netcoreapp2.1/Lab8Objects.dll
+/Users/jason/Projects/Lab8Objects/Lab8Objects/bin/Debug/netcoreapp2.1/Lab8Objects.pdb
+/Users/jason/Projects/Lab8Objects/Lab8Objects/obj/Debug/netcoreapp2.1/Lab8Objects.dll
+/Users/jason/Projects/Lab8Objects/Lab8Objects/obj/Debug/netcoreapp2.1/Lab8Objects.pdb
