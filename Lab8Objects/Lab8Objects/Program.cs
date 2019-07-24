@@ -14,16 +14,14 @@ namespace Lab8Objects
             Student s3 = new Student("Tommy", "Raleigh", "Chicken Curry");
             Student s4 = new Student("James", "Grand Rapids", "Burgers and Fries");
             Student s5 = new Student("Maricela", "Morelia", "Tacos");
+            Student s6 = new Student("Bob", "Detroit", "Burgers");
+            Student s7 = new Student("KymVe", "Grand Rapids", "Sushi");
+            Student s8 = new Student("Flaka", "Pristina", "Thai");
 
-            //place into list
-            List<Student> students = new List<Student>
-            {
-                s1,
-                s2,
-                s3,
-                s4,
-                s5
-            };
+
+            // Place into list
+            List<Student> students = new List<Student> { s1, s2, s3, s4, s5, s6, s7, s8 };
+        
 
             // Get input on which student, catch exceptions
             Console.WriteLine("Welcome to our C# class.");
@@ -37,9 +35,8 @@ namespace Lab8Objects
                 }
 
                 int input = 0;
-                while (true)
+                while (true) //idea for loop from stack overflow: https://stackoverflow.com/questions/7920657/repeating-a-function-in-c-sharp-until-it-no-longer-throws-an-exception
                 {
-
                     try
                     {
                         input = int.Parse(Console.ReadLine());
@@ -57,32 +54,28 @@ namespace Lab8Objects
                     }
                 }
 
-                // get what info user wants
+                // get what info user wants, ask until input valid
 
-                bool validInp = false;
-
-                while (validInp == false)
+                while (true)
                 {
                     string info = Console.ReadLine();
 
                     if (info == "hometown")
                     {
                         Console.WriteLine("{0} is from {1}", students[input - 1].GetName(), students[input - 1].GetHometown());
-                        validInp = true;
+                        break;
                     }
                     else if (info == "food")
                     {
                         Console.WriteLine("{0}'s favorite food is {1}", students[input - 1].GetName(), students[input - 1].GetFavoriteFood());
-                        validInp = true;
+                        break;
 
                     }
                     else
                     {
                         Console.WriteLine("Invalid input, please enter either 'hometown' or 'food'");
-                        validInp = false;
                     }
                 }
-                //Proceed();
             }
             while (Proceed() == true);
         }
